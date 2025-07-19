@@ -52,7 +52,7 @@ Directory structure:
 <ul>
   
   <li><b>README.md:</b> You are currently reading this file! It provides an overview of the project.</li>
-<li> <b>_Final_.ipynb:</b> These are Jupyter Notebook files. Each notebook contains the Python code, data visualizations, and commentary for the analysis of a specific IPL final match.
+<li> <b>_Final_.ipynb:</b> These are Jupyter Notebook files. Each notebook contains the Python code, data visualizations, and commentary for analyzing a specific IPL final match.
 <ul>
 <li> <b>2020_Final_DC_vs_MI.ipynb:</b> Analysis of the 2020 IPL Final between Delhi Capitals and Mumbai Indians.</li>
 <li><b>2021_Final_CSK_vs_KKR.ipynb:</b> Analysis of the 2021 IPL Final between Chennai Super Kings and Kolkata Knight Riders.</li>
@@ -66,8 +66,7 @@ Directory structure:
 <li><b>HTML_files/:</b> These are the static HTML exports of the Jupyter Notebooks. They provide a convenient way to view the analysis without needing to set up a Python environment.</li>
 </ul>
 
-## Data Sources
-
+## Data Sources🗄
 
 The data for this project was sourced from:
 
@@ -76,7 +75,7 @@ The data for this project was sourced from:
 
 Data was collected using web scraping techniques and the Cricinfo API. The collected data was then cleaned and preprocessed using Pandas in Python to handle missing values, correct data types, and ensure consistency. Data validation included cross-referencing information between the IPL website and Cricinfo to ensure accuracy.
 
-## Analytical Methods
+## Analytical Methods📈
 
 The following analytical methods were employed:
 
@@ -95,14 +94,23 @@ The choice of these methods was driven by the need to provide a comprehensive ov
 
 > *Include visualizations or tables here to showcase your findings. For example:*
 
-    | Season | Winning Team | Key Player |
-    |---|---|---|
-    | 2020 | Mumbai Indians | Jasprit Bumrah |
-    | 2021 | Chennai Super Kings | Faf du Plessis |
-    | 2022 | Gujarat Titans | Hardik Pandya |
-    | 2023 | Chennai Super Kings | Devon Conway |
-    | 2024 | Kolkata Knight Riders | Andre Russell |
-    | 2025 | Royal Challengers Bengaluru | Krunal Pandaya |
+<table>
+  <thead>
+    <tr>
+      <th>Season</th>
+      <th>Winning Team</th>
+      <th>Key Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>2020</td> <td>Mumbai Indians</td> <td> Jasprit Bumrah</td> </tr>
+    <tr><td>2021</td><td> Chennai Super Kings </td><td> Faf du Plessis </td></tr>
+    <tr><td>2022</td><td> Gujarat Titans </td><td> Hardik Pandya</td> </tr>
+    <tr><td>2023 </td> <td> Chennai Super Kings </td><td> Devon Conway</td></tr>
+    <tr><td>2024 </td><td> Kolkata Knight Riders </td><td> Andre Russell</td></tr>
+    <tr><td>2025 </td><td> Royal Challengers Bengaluru </td><td> Krunal Pandya</td></tr>
+  </tbody>
+</table>
 
 ## Setup and Execution
 
